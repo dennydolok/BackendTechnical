@@ -6,7 +6,6 @@ type Config struct {
 	DB_HOST     string
 	DB_PORT     string
 	DB_NAME     string
-	SECRET_KEY  string
 }
 
 func InitConfig() Config {
@@ -16,6 +15,5 @@ func InitConfig() Config {
 		DB_HOST:     "localhost",
 		DB_PORT:     "3306",
 		DB_NAME:     "backendtest",
-		SECRET_KEY:  "secret",
 	}
 }
